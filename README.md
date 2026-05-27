@@ -1,26 +1,25 @@
 # Mini IDS (침입 탐지 시스템)
 
-## 개요
+# 개요
 Python + Scapy로 구현한 네트워크 침입 탐지 시스템.
 포트 스캔과 ICMP Flood를 실시간 탐지하고 웹 대시보드로 시각화.
 
-## 탐지 기능
+# 탐지 기능
 | 공격 유형 | 탐지 기준 | 방법 |
 |----------|----------|------|
 | 포트 스캔 | 10초 내 5개 이상 포트에 SYN 패킷 | TCP 플래그 분석 |
 | DDoS (ICMP Flood) | 1초 내 ICMP 100개 이상 | 패킷 카운팅 |
 
-## 기술 스택
+# 기술 스택
 - Python 3, Scapy, Flask
 - Ubuntu 22.04 (VirtualBox VM)
 
-## 실행 방법
+# 실행 방법
 # 탐지 엔진 실행
 sudo python3 detector.py
 
 # 대시보드 실행
 python3 dashboard.py
-# → 브라우저에서 http://127.0.0.1:5000 접속
 
 ## 프로젝트 구조
 mini-ids/
