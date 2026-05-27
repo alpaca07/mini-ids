@@ -23,13 +23,13 @@ python3 dashboard.py
 
 
 # 프로젝트 구조
-'''
+```
 mini-ids/
 ├── capture.py      # 패킷 캡처 및 CSV 저장
 ├── detector.py     # 포트 스캔 / DDoS 탐지 엔진
 ├── dashboard.py    # Flask 웹 대시보드
 └── .gitignore
-'''
+```
 
 ## 배운 점
 - TCP 3-way handshake와 SYN 플래그 동작 원리
