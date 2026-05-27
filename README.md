@@ -21,7 +21,8 @@ sudo python3 detector.py
 # 대시보드 실행
 python3 dashboard.py
 
-## 프로젝트 구조
+
+# 프로젝트 구조
 mini-ids/
 ├── capture.py      # 패킷 캡처 및 CSV 저장
 ├── detector.py     # 포트 스캔 / DDoS 탐지 엔진
